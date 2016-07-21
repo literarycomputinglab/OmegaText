@@ -12,11 +12,13 @@ import java.net.URI;
 import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import sirius.kernel.di.std.Register;
 
 /**
  *
  * @author simone
  */
+@Register (classes = TextServiceStateless.class)
 public class StatelessService implements TextServiceStateless {
 
     @Override

@@ -1,0 +1,102 @@
+2016-02-02 12:52:39,775 INFO  [main] sirius - Java HotSpot(TM) 64-Bit Server VM (1.8, Oracle Corporation, 25.72-b15)
+2016-02-02 12:52:39,778 INFO  [main] sirius - Linux (4.2.0-25-generic) on 4 CPUs (amd64)
+2016-02-02 12:52:39,778 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:52:39,778 INFO  [main] sirius - System is STARTING...
+2016-02-02 12:52:39,778 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:52:39,778 INFO  [main] sirius - Loading config...
+2016-02-02 12:52:39,778 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:52:39,798 INFO  [main] sirius - using application.conf from classpath...
+2016-02-02 12:52:39,850 INFO  [main] sirius - instance.conf not present work in directory
+2016-02-02 12:52:39,851 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:52:39,851 INFO  [main] sirius - Starting the system...
+2016-02-02 12:52:39,851 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:52:39,970 INFO  [main] sirius - Initializing the log system:
+2016-02-02 12:52:39,972 INFO  [main] sirius - * Setting ignored to: OFF
+2016-02-02 12:52:39,973 INFO  [main] sirius - Enabled 1 of 2 frameworks...
+2016-02-02 12:52:39,973 INFO  [main] sirius - Active Customizations: []
+2016-02-02 12:52:40,027 INFO  [main] di - Initializing the MicroKernel....
+2016-02-02 12:52:40,027 INFO  [main] di - ~ Scanning .class files...
+2016-02-02 12:52:40,719 INFO  [main] di - ~ Applying 1 class load actions on 236 classes...
+2016-02-02 12:52:40,743 INFO  [main] di - ~ Initializing static parts-references...
+2016-02-02 12:52:40,754 INFO  [main] di - ~ Initializing parts...
+2016-02-02 12:52:40,773 INFO  [default-0] sirius - Starting: tasks (Async Execution Engine)
+2016-02-02 12:52:40,775 INFO  [default-1] sirius - Starting: timer (System Timer Services)
+2016-02-02 12:52:40,776 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:52:40,776 INFO  [main] sirius - System is UP and RUNNING - 1 Second, 66 Milliseconds
+2016-02-02 12:52:40,777 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:02,122 INFO  [main] sirius - Java HotSpot(TM) 64-Bit Server VM (1.8, Oracle Corporation, 25.72-b15)
+2016-02-02 12:54:02,125 INFO  [main] sirius - Linux (4.2.0-25-generic) on 4 CPUs (amd64)
+2016-02-02 12:54:02,125 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:02,125 INFO  [main] sirius - System is STARTING...
+2016-02-02 12:54:02,125 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:02,125 INFO  [main] sirius - Loading config...
+2016-02-02 12:54:02,125 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:02,154 INFO  [main] sirius - using application.conf from classpath...
+2016-02-02 12:54:02,205 INFO  [main] sirius - instance.conf not present work in directory
+2016-02-02 12:54:02,206 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:02,206 INFO  [main] sirius - Starting the system...
+2016-02-02 12:54:02,206 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:02,325 INFO  [main] sirius - Initializing the log system:
+2016-02-02 12:54:02,327 INFO  [main] sirius - * Setting ignored to: OFF
+2016-02-02 12:54:02,328 INFO  [main] sirius - Enabled 1 of 2 frameworks...
+2016-02-02 12:54:02,328 INFO  [main] sirius - Active Customizations: []
+2016-02-02 12:54:02,383 INFO  [main] di - Initializing the MicroKernel....
+2016-02-02 12:54:02,383 INFO  [main] di - ~ Scanning .class files...
+2016-02-02 12:54:03,043 INFO  [main] di - ~ Applying 1 class load actions on 236 classes...
+2016-02-02 12:54:03,067 INFO  [main] di - ~ Initializing static parts-references...
+2016-02-02 12:54:03,084 INFO  [main] di - ~ Initializing parts...
+2016-02-02 12:54:03,105 INFO  [default-0] sirius - Starting: tasks (Async Execution Engine)
+2016-02-02 12:54:03,108 INFO  [default-1] sirius - Starting: timer (System Timer Services)
+2016-02-02 12:54:03,109 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:54:03,109 INFO  [main] sirius - System is UP and RUNNING - 1 Second, 57 Milliseconds
+2016-02-02 12:54:03,109 INFO  [main] sirius - ---------------------------------------------------------
+2016-02-02 12:59:47,938 INFO  [Thread-3] sirius - Stopping Sirius
+2016-02-02 12:59:47,939 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 12:59:47,946 INFO  [Thread-3] sirius - Stopping lifecycles...
+2016-02-02 12:59:47,946 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 12:59:47,948 INFO  [default-9] sirius - Stopping: timer (System Timer Services)
+2016-02-02 12:59:47,949 INFO  [default-10] sirius - Stopping: tasks (Async Execution Engine)
+2016-02-02 12:59:47,951 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 12:59:47,951 INFO  [Thread-3] sirius - Awaiting system halt...
+2016-02-02 12:59:47,952 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 12:59:47,952 INFO  [Thread-3] sirius - Terminated: timer (System Timer Services) (Took: 21 us)
+2016-02-02 12:59:47,963 INFO  [Thread-3] sirius - Terminated: tasks (Async Execution Engine) (Took: 1 Millisecond)
+2016-02-02 12:59:47,963 INFO  [Thread-3] sirius - System halted! - Thread State
+2016-02-02 12:59:47,963 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 12:59:47,964 INFO  [Thread-3] sirius - STATE                   ID                                                  NAME
+2016-02-02 12:59:47,973 INFO  [Thread-3] sirius - RUNNABLE                32                                       SIGTERM handler
+2016-02-02 12:59:47,973 INFO  [Thread-3] sirius - BLOCKED                 31                                       SIGTERM handler
+2016-02-02 12:59:47,973 INFO  [Thread-3] sirius - RUNNABLE                29                                             default-9
+2016-02-02 12:59:47,973 INFO  [Thread-3] sirius - RUNNABLE                17                                              Thread-3
+2016-02-02 12:59:47,974 INFO  [Thread-3] sirius - WAITING                 28                                       SIGTERM handler
+2016-02-02 12:59:47,974 INFO  [Thread-3] sirius - RUNNABLE                26                                             default-7
+2016-02-02 12:59:47,974 INFO  [Thread-3] sirius - WAITING                 24                                             default-5
+2016-02-02 12:59:47,974 INFO  [Thread-3] sirius - RUNNABLE                18                                         DestroyJavaVM
+2016-02-02 12:59:47,974 INFO  [Thread-3] sirius - RUNNABLE                 4                                     Signal Dispatcher
+2016-02-02 12:59:47,975 INFO  [Thread-3] sirius - WAITING                  3                                             Finalizer
+2016-02-02 12:59:47,975 INFO  [Thread-3] sirius - WAITING                  2                                     Reference Handler
+2016-02-02 12:59:47,975 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 13:00:37,474 INFO  [Thread-3] sirius - Stopping Sirius
+2016-02-02 13:00:37,475 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 13:00:37,475 INFO  [Thread-3] sirius - Stopping lifecycles...
+2016-02-02 13:00:37,475 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 13:00:37,476 INFO  [default-11] sirius - Stopping: timer (System Timer Services)
+2016-02-02 13:00:37,478 INFO  [default-12] sirius - Stopping: tasks (Async Execution Engine)
+2016-02-02 13:00:37,478 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 13:00:37,478 INFO  [Thread-3] sirius - Awaiting system halt...
+2016-02-02 13:00:37,479 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 13:00:37,479 INFO  [Thread-3] sirius - Terminated: timer (System Timer Services) (Took: 14 us)
+2016-02-02 13:00:37,480 INFO  [Thread-3] tasks - Waiting for async executor 'default' to terminate...
+2016-02-02 13:00:37,498 INFO  [Thread-3] sirius - Terminated: tasks (Async Execution Engine) (Took: 19 Milliseconds)
+2016-02-02 13:00:37,498 INFO  [Thread-3] sirius - System halted! - Thread State
+2016-02-02 13:00:37,498 INFO  [Thread-3] sirius - ---------------------------------------------------------
+2016-02-02 13:00:37,499 INFO  [Thread-3] sirius - STATE                   ID                                                  NAME
+2016-02-02 13:00:37,504 INFO  [Thread-3] sirius - RUNNABLE                34                                       SIGTERM handler
+2016-02-02 13:00:37,504 INFO  [Thread-3] sirius - BLOCKED                 33                                       SIGTERM handler
+2016-02-02 13:00:37,505 INFO  [Thread-3] sirius - RUNNABLE                17                                              Thread-3
+2016-02-02 13:00:37,505 INFO  [Thread-3] sirius - WAITING                 30                                       SIGTERM handler
+2016-02-02 13:00:37,505 INFO  [Thread-3] sirius - RUNNABLE                18                                         DestroyJavaVM
+2016-02-02 13:00:37,505 INFO  [Thread-3] sirius - RUNNABLE                 4                                     Signal Dispatcher
+2016-02-02 13:00:37,505 INFO  [Thread-3] sirius - WAITING                  3                                             Finalizer
+2016-02-02 13:00:37,506 INFO  [Thread-3] sirius - WAITING                  2                                     Reference Handler
+2016-02-02 13:00:37,506 INFO  [Thread-3] sirius - ---------------------------------------------------------

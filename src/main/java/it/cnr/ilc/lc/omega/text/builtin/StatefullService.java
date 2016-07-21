@@ -10,14 +10,15 @@ import it.cnr.ilc.lc.omega.text.spi.TextServiceStatefull;
 import it.cnr.ilc.lc.omega.core.datatype.Text;
 import it.cnr.ilc.lc.omega.exception.InvalidURIException;
 import java.net.URI;
-import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import sirius.kernel.di.std.Register;
 
 /**
  *
  * @author simone
  */
+@Register (classes = TextServiceStatefull.class)
 public class StatefullService implements TextServiceStatefull {
 
     private Text text = null;
@@ -30,6 +31,7 @@ public class StatefullService implements TextServiceStatefull {
     public void createText(String text, String uri) {
         try {
             setText(Text.of(text, URI.create(uri)));
+            save();
         } catch (ManagerAction.ActionException ex) {
             Logger.getLogger(StatefullService.class.getName()).log(Level.SEVERE, null, ex);
         } catch (InvalidURIException ex) {
@@ -42,5 +44,11 @@ public class StatefullService implements TextServiceStatefull {
         
         return text.toString();
     }
+
+    private void save() throws ManagerAction.ActionException {
+        text.save();
+    }
+    
+    
 
 }

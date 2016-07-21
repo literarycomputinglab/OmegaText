@@ -5,19 +5,28 @@
  */
 package it.cnr.ilc.lc.omega.text.api;
 
+import it.cnr.ilc.lc.omega.core.OmegaCore;
 import it.cnr.ilc.lc.omega.text.spi.TextServiceStatefull;
 import it.cnr.ilc.lc.omega.text.spi.TextServiceStateless;
 import java.util.Optional;
+import sirius.kernel.Setup;
+import sirius.kernel.Sirius;
+import sirius.kernel.di.std.Part;
+import sirius.kernel.di.std.Register;
 
 /**
  *
  * @author simone
  */
+@Register(classes = TextService.class)
 public final class TextService {
 
-    private TextServiceStatefull serviceStatefull;
-    private TextServiceStateless serviceStateless;
-
+    @Part
+    private static TextServiceStatefull serviceStatefull;
+    
+    @Part
+    private static TextServiceStateless serviceStateless;
+    
     public void createText(String text, String uri) {
 
         serviceStatefull.createText(text, uri);
@@ -35,4 +44,13 @@ public final class TextService {
 
     }
 
+    public static void main(String[] args) {
+        
+        Setup.createAndStartEnvironment(ClassLoader.getSystemClassLoader());
+        TextService service = new TextService();
+        service.createText("bobbe", "malle 2");
+        
+        Sirius.stop();
+        
+    }
 }
